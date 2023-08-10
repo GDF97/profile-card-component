@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <link rel="stylesheet" href="animations.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./images/bg-pattern-top.svg"
+        class="top-pattern"
+        alt=""
+        srcset=""
+      />
+      <img
+        src="./images/bg-pattern-bottom.svg"
+        class="bottom-pattern"
+        alt=""
+        srcset=""
+      />
+
+      <main class="card animate slideFromLeft">
+        <img src="./images/bg-pattern-card.svg" alt="" srcset="" />
+        <section class="info">
+          <img src="images/image-victor.jpg" alt="" />
+          <article class="animate animate--delay-5ms slideFromLeft">
+            <h1>Victor Crest</h1>
+            <p>26</p>
+          </article>
+          <p class="animate animate--delay-5ms slideFromRight">London</p>
+        </section>
+        <hr />
+        <footer class="footer">
+          <article class="footer-item animate animate--delay-8ms fadeIn">
+            <strong>80K</strong>
+            <p>Followers</p>
+          </article>
+          <article class="footer-item animate animate--delay-1s fadeIn">
+            <strong>803K</strong>
+            <p>Likes</p>
+          </article>
+          <article class="footer-item animate animate--delay-1_2s fadeIn">
+            <strong>1.4K</strong>
+            <p>Photos</p>
+          </article>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
